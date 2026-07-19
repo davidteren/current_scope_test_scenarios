@@ -11,11 +11,18 @@ CurrentScope.configure do |config|
   # config.subject_label = :email
   # config.subject_label = ->(u) { "#{u.first_name} #{u.last_name}" }
 
-  # Fold the role-editor grid's action columns. Default = CRUD (new/edit hide
-  # into create/update; index+show read as one). Set to nil to show every raw
-  # action as its own column.
-  # config.permission_grid_groups = { "read" => %w[index show], "create" => %w[new create],
-  #                                   "update" => %w[edit update], "destroy" => %w[destroy] }
+  # Fold the role-editor grid's action columns. Default CRUD groups alone leave
+  # every god-controller one-off as its own column (~30+). Host groups for the
+  # report/export/bulk/search verbs cut that surface (ie-audit P1 / F4).
+  config.permission_grid_groups = {
+    "read"    => %w[index show dashboard stats settings search advanced_search print_view],
+    "create"  => %w[new create import import_preview duplicate_record],
+    "update"  => %w[edit update update_settings toggle_active assign unassign restore],
+    "destroy" => %w[destroy bulk_delete purge],
+    "reports" => %w[users_report orders_report email_report],
+    "export"  => %w[export_csv export_pdf export_xml],
+    "bulk"    => %w[bulk_update approve_all deny_all merge_records archive_old]
+  }
 
   # --- Impersonation (act-as) ---------------------------------------------
   # These three knobs layer, in this order:

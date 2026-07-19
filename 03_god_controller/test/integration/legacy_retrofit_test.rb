@@ -9,15 +9,14 @@ class LegacyRetrofitTest < ActionDispatch::IntegrationTest
     make_owner!(@owner)
   end
 
-  test "WALL 1: logged-out users get a bare 403, not the app's login redirect" do
-    # Pre-gem: GET /legacy/stats redirected to the login page.
-    # Post-gem: Guard's before_action registered at include time runs BEFORE
-    # the host's own `before_action :require_login` (declared after the
-    # includes, per the README's own install snippet), so anonymous users get
-    # 403 instead of the login redirect. Auth UX silently broken.
+  test "logged-out users hit require_login before Guard and redirect to sign-in" do
+    # Host fix for F2 / ie-audit P1: require_login is registered before Guard
+    # is included, so anonymous traffic gets the login redirect instead of a
+    # bare 403 from current_scope_check!.
     get "/legacy/stats"
-    assert_response :forbidden
-    assert_equal "no_grant", response.headers["X-Current-Scope-Reason"]
+    assert_redirected_to sessions_path
+    follow_redirect!
+    assert_includes response.body, "Log in first"
   end
 
   test "WALL 2: every gated action 403s for every signed-in user until roles exist" do
@@ -29,12 +28,14 @@ class LegacyRetrofitTest < ActionDispatch::IntegrationTest
     get "/legacy/settings";       assert_response :forbidden
   end
 
-  test "an unrescued denial is a 403 with an EMPTY body (gem self-rescues), not a 500" do
+  test "a denial renders a host 403 page with reason header, not an empty body" do
     login_as @roleless
     get "/legacy/stats"
     assert_response :forbidden
-    assert_equal "", response.body.to_s
     assert_equal "no_grant", response.headers["X-Current-Scope-Reason"]
+    assert_includes response.body, "Access denied"
+    assert_includes response.body, "no_grant"
+    assert_select "#access-denied"
   end
 
   test "full-access owner passes everywhere" do

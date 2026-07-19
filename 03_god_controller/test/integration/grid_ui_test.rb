@@ -23,7 +23,7 @@ class GridUiTest < ActionDispatch::IntegrationTest
     assert_includes response.body, "cs-grid"
   end
 
-  test "MEASURE: grid dimensions at god-controller scale" do
+  test "MEASURE: host permission_grid_groups fold god-controller one-offs" do
     get "/current_scope/roles/#{@member.id}/edit"
     doc = Nokogiri::HTML(response.body)
 
@@ -40,9 +40,6 @@ class GridUiTest < ActionDispatch::IntegrationTest
     puts "cells total: #{doc.css('table.cs-grid tbody td').size}"
     blank = doc.css("table.cs-grid tbody td").count { |td| td.css("input[type=checkbox]").empty? }
     puts "blank cells: #{blank}"
-    # Headers are white-space:nowrap uppercase mono at 0.7rem (11.2px, ~6.9px
-    # per char) with 0.625rem side padding + 1px border => column min-width is
-    # driven by the LABEL LENGTH, e.g. "duplicate_record".
     col_px = one_off_columns.sum { |l| [ l.length * 6.9, 34 ].max + 21 }
     est_width = (160 + col_px).round
     puts "longest header: #{one_off_columns.max_by(&:length).inspect}"
@@ -50,8 +47,14 @@ class GridUiTest < ActionDispatch::IntegrationTest
     puts "page bytes: #{response.body.bytesize}"
     puts "=========================="
 
-    # The god controller turns every non-CRUD action into its own column.
-    assert_operator header_cells.size, :>=, 29,
-      "expected ~30+ columns for 27 one-off legacy actions"
+    # Host groups (reports/export/bulk/read/create/update/destroy) collapse the
+    # previous ~30+ one-off columns into a compact matrix (ie-audit P1 / F4).
+    assert_includes grouped, "reports"
+    assert_includes grouped, "export"
+    assert_includes grouped, "bulk"
+    assert_operator header_cells.size, :<=, 12,
+      "expected grouped grid to stay well under the ungrouped 30+ column surface, got #{header_cells.size}"
+    assert_operator (one_off_columns - grouped).size, :<=, 3,
+      "expected almost all legacy verbs to land in a group"
   end
 end

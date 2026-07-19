@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_07_14_212745) do
+ActiveRecord::Schema[8.1].define(version: 2026_07_19_220000) do
   create_table "current_scope_events", force: :cascade do |t|
     t.string "actor", null: false
     t.datetime "created_at", null: false
@@ -66,6 +66,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_14_212745) do
 
   create_table "customers", force: :cascade do |t|
     t.boolean "active"
+    t.boolean "assigned", default: false, null: false
     t.datetime "created_at", null: false
     t.string "name"
     t.datetime "updated_at", null: false
@@ -77,6 +78,22 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_14_212745) do
     t.string "number"
     t.string "status"
     t.datetime "updated_at", null: false
+  end
+
+  create_table "report_deliveries", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.string "kind", null: false
+    t.datetime "updated_at", null: false
+    t.integer "user_id", null: false
+    t.index ["user_id"], name: "index_report_deliveries_on_user_id"
+  end
+
+  create_table "settings", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.string "key", null: false
+    t.datetime "updated_at", null: false
+    t.string "value"
+    t.index ["key"], name: "index_settings_on_key", unique: true
   end
 
   create_table "users", force: :cascade do |t|
@@ -95,4 +112,5 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_14_212745) do
   add_foreign_key "current_scope_role_assignments", "current_scope_roles", column: "role_id"
   add_foreign_key "current_scope_role_permissions", "current_scope_roles", column: "role_id"
   add_foreign_key "current_scope_scoped_role_assignments", "current_scope_roles", column: "role_id"
+  add_foreign_key "report_deliveries", "users"
 end
