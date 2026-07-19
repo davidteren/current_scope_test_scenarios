@@ -130,4 +130,33 @@ class P1HostFixesTest < ActionDispatch::IntegrationTest
     assert_response :forbidden
     refute order.reload.archived
   end
+
+  test "turbo_stream denials render the friendly page, not a blank body" do
+    roleless = User.create!(name: "Turbo Roleless", email: "turbo-roleless@example.com")
+    login_as roleless
+    post "/legacy/update_settings",
+         params: { site_name: "Nope" },
+         headers: { "Accept" => "text/vnd.turbo-stream.html, text/html, application/xhtml+xml" }
+    assert_response :forbidden
+    assert_equal "no_grant", response.headers["X-Current-Scope-Reason"]
+    assert_includes response.body, "Access denied"
+    assert_includes response.body, "no_grant"
+  end
+
+  test "bulk_delete and merge_records treat NULL active as inactive" do
+    null_active = Customer.create!(name: "NullActive", active: nil)
+    post "/legacy/merge_records"
+    assert_equal "Merged", null_active.reload.name
+
+    post "/legacy/bulk_delete"
+    refute Customer.exists?(null_active.id)
+  end
+
+  test "Setting.[]= upserts without raising on a second write to the same key" do
+    assert_equal "one", (Setting["site_name"] = "one")
+    assert_equal "two", (Setting["site_name"] = "two")
+    assert_equal 1, Setting.where(key: "site_name").count
+    assert_equal "two", Setting["site_name"]
+  end
 end
+

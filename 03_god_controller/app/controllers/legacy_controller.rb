@@ -56,7 +56,8 @@ class LegacyController < ApplicationController
   end
 
   def bulk_delete
-    deleted = Customer.where(active: false).delete_all
+    # Treat NULL active as inactive (column is nullable with no default).
+    deleted = Customer.where(active: [ false, nil ]).delete_all
     redirect_to "/legacy/dashboard", notice: "bulk deleted #{deleted}"
   end
 
@@ -130,7 +131,8 @@ class LegacyController < ApplicationController
   end
 
   def merge_records
-    merged = Customer.where(active: false).update_all(name: "Merged")
+    # Treat NULL active as inactive (column is nullable with no default).
+    merged = Customer.where(active: [ false, nil ]).update_all(name: "Merged")
     redirect_to "/legacy/dashboard", notice: "merged #{merged}"
   end
 

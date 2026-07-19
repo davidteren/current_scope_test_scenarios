@@ -5,10 +5,13 @@ class Setting < ApplicationRecord
     find_by(key: key.to_s)&.value
   end
 
+  # Atomic upsert so concurrent first-writes to the same key cannot raise
+  # ActiveRecord::RecordNotUnique against the unique index on settings.key.
   def self.[]=(key, value)
-    rec = find_or_initialize_by(key: key.to_s)
-    rec.value = value.to_s
-    rec.save!
-    rec.value
+    k = key.to_s
+    v = value.to_s
+    now = Time.current
+    upsert({ key: k, value: v, created_at: now, updated_at: now }, unique_by: :index_settings_on_key)
+    v
   end
 end

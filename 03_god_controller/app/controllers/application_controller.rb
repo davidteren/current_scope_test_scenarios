@@ -23,16 +23,26 @@ class ApplicationController < ActionController::Base
   end
 
   # Friendly denial page instead of the gem default bodyless 403 (ie-audit P1 / F3).
-  # JSON/non-HTML clients keep a header-only 403 so API-style probes stay stable.
+  # HTML and Turbo Stream get the same body (Turbo form posts often negotiate
+  # turbo_stream). JSON/non-HTML clients keep a header-only 403 so API-style
+  # probes stay stable.
   def current_scope_render_denied(reason = nil)
     respond_to do |format|
-      format.html do
-        render template: "shared/access_denied",
-               status: :forbidden,
-               layout: "application",
-               locals: { reason: reason }
-      end
+      format.html { render_access_denied_page(reason) }
+      format.turbo_stream { render_access_denied_page(reason) }
       format.any { head :forbidden }
     end
   end
+
+  def render_access_denied_page(reason)
+    # formats: [:html] so turbo_stream requests still resolve the .html.erb
+    # template instead of looking for access_denied.turbo_stream.erb.
+    render template: "shared/access_denied",
+           status: :forbidden,
+           layout: "application",
+           formats: [ :html ],
+           locals: { reason: reason }
+  end
 end
+
+
