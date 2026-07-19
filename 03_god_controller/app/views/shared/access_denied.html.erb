@@ -1,0 +1,16 @@
+<main class="container" id="access-denied">
+  <h1>Access denied</h1>
+  <p>You do not have permission to perform this action.</p>
+  <% if reason.present? %>
+    <p class="access-denied-reason">Reason: <code><%= reason %></code></p>
+  <% end %>
+  <p>
+    <% if current_user %>
+      <%= link_to "Back to dashboard", "/legacy/dashboard" %>
+      ·
+      <%= button_to "Log out", "/logout", method: :delete %>
+    <% else %>
+      <%= link_to "Log in", sessions_path %>
+    <% end %>
+  </p>
+</main>

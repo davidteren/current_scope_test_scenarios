@@ -1,4 +1,9 @@
 <main class="container">
   <h1>Settings</h1>
-  <%= button_to "Save", "/legacy/update_settings" %>
+  <p><%= link_to "Dashboard", "/legacy/dashboard" %></p>
+  <%= form_with url: "/legacy/update_settings", method: :post do %>
+    <label for="site_name">Site name</label>
+    <input type="text" name="site_name" id="site_name" value="<%= @site_name %>">
+    <button type="submit">Save</button>
+  <% end %>
 </main>
