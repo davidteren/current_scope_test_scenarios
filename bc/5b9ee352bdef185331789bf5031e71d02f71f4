@@ -1,0 +1,1059 @@
+.gitignore
+  s_78450d8eb59756::t_82ff093bdec2e4 1-11
+01_baseline_blog/.ruby-version
+  s_27e720dfab3b7a::t_9540a410a1925d 1
+01_baseline_blog/Gemfile
+  s_27e720dfab3b7a::t_cdcfb4295ac29f 1-45
+01_baseline_blog/Gemfile.lock
+  s_78450d8eb59756::t_dfad9bac90fb89 1-307
+01_baseline_blog/README.md
+  s_27e720dfab3b7a::t_7ecab8974c6dbf 1-24
+01_baseline_blog/Rakefile
+  s_27e720dfab3b7a::t_c1963cc8aba91b 1-6
+01_baseline_blog/app/assets/stylesheets/application.css
+  s_27e720dfab3b7a::t_81b254339451bb 1-10
+01_baseline_blog/app/controllers/application_controller.rb
+  s_27e720dfab3b7a::t_8f5720e8f66762 1-15
+01_baseline_blog/app/controllers/sessions_controller.rb
+  s_27e720dfab3b7a::t_e778a67a060217 1-17
+01_baseline_blog/app/helpers/application_helper.rb
+  s_27e720dfab3b7a::t_9aca8543d0395c 1-2
+01_baseline_blog/app/helpers/comments_helper.rb
+  s_27e720dfab3b7a::t_e6584c8c6a348e 1-2
+01_baseline_blog/app/helpers/posts_helper.rb
+  s_27e720dfab3b7a::t_45115b51a07fbf 1-2
+01_baseline_blog/app/javascript/application.js
+  s_27e720dfab3b7a::t_3e82e13fde3d0f 1-3
+01_baseline_blog/app/javascript/controllers/application.js
+  s_27e720dfab3b7a::t_02a35de95fe5d5 1-9
+01_baseline_blog/app/javascript/controllers/hello_controller.js
+  s_27e720dfab3b7a::t_3165b22db3dd99 1-7
+01_baseline_blog/app/javascript/controllers/index.js
+  s_27e720dfab3b7a::t_ee14e01633858a 1-4
+01_baseline_blog/app/jobs/application_job.rb
+  s_27e720dfab3b7a::t_1ad4adae87f2ae 1-7
+01_baseline_blog/app/mailers/application_mailer.rb
+  s_27e720dfab3b7a::t_68e5f6bc4b0f81 1-4
+01_baseline_blog/app/models/application_record.rb
+  s_27e720dfab3b7a::t_86e6e730ed7382 1-3
+01_baseline_blog/app/models/comment.rb
+  s_27e720dfab3b7a::t_63590414684322 1-3
+01_baseline_blog/app/models/user.rb
+  s_27e720dfab3b7a::t_f16dac2643eab6 1-2
+01_baseline_blog/app/views/comments/_comment.html.erb
+  s_27e720dfab3b7a::t_70c8bc41e46360 1-12
+01_baseline_blog/app/views/comments/_form.html.erb
+  s_27e720dfab3b7a::t_50ae457e7ac3cb 1-27
+01_baseline_blog/app/views/comments/edit.html.erb
+  s_27e720dfab3b7a::t_34ef3029d06923 1-12
+01_baseline_blog/app/views/comments/index.html.erb
+  s_27e720dfab3b7a::t_8f1ea1a99e774d 1-16
+01_baseline_blog/app/views/comments/new.html.erb
+  s_27e720dfab3b7a::t_d1aa901f9c2d0d 1-11
+01_baseline_blog/app/views/comments/show.html.erb
+  s_27e720dfab3b7a::t_4bd9f410ba4e5d 1-10
+01_baseline_blog/app/views/layouts/application.html.erb
+  s_27e720dfab3b7a::t_0feffc089cc1c8 1-46
+01_baseline_blog/app/views/layouts/mailer.html.erb
+  s_27e720dfab3b7a::t_82bad5986e6ba8 1-13
+01_baseline_blog/app/views/layouts/mailer.text.erb
+  s_27e720dfab3b7a::t_f5ddd8fa965e1e 1
+01_baseline_blog/app/views/posts/_form.html.erb
+  s_27e720dfab3b7a::t_13093243dd9afb 1-27
+01_baseline_blog/app/views/posts/edit.html.erb
+  s_27e720dfab3b7a::t_f3c7babd939f26 1-12
+01_baseline_blog/app/views/posts/index.html.erb
+  s_27e720dfab3b7a::t_9dec052003bd12 1-16
+01_baseline_blog/app/views/posts/new.html.erb
+  s_27e720dfab3b7a::t_bdf19bf66304f0 1-11
+01_baseline_blog/app/views/posts/show.html.erb
+  s_27e720dfab3b7a::t_3b0e152088fb6f 1-14
+01_baseline_blog/app/views/pwa/manifest.json.erb
+  s_27e720dfab3b7a::t_80c71f0c2f0ad8 1-22
+01_baseline_blog/app/views/pwa/service-worker.js
+  s_27e720dfab3b7a::t_9e536b0a746887 1-26
+01_baseline_blog/app/views/sessions/index.html.erb
+  s_27e720dfab3b7a::t_d9137944b91b48 1-8
+01_baseline_blog/bin/bundler-audit
+  s_27e720dfab3b7a::t_3b930be5ff2fa9 1-6
+01_baseline_blog/bin/ci
+  s_27e720dfab3b7a::t_479c02ddc68945 1-6
+01_baseline_blog/bin/dev
+  s_27e720dfab3b7a::t_c96403f040eda3 1-2
+01_baseline_blog/bin/importmap
+  s_27e720dfab3b7a::t_e23d476292d3bb 1-4
+01_baseline_blog/bin/rails
+  s_27e720dfab3b7a::t_2d5217e2e1cb49 1-4
+01_baseline_blog/bin/rake
+  s_27e720dfab3b7a::t_2150a9b503f5e9 1-4
+01_baseline_blog/bin/setup
+  s_27e720dfab3b7a::t_15eeb2a799e0c2 1-35
+01_baseline_blog/config.ru
+  s_27e720dfab3b7a::t_9154b5bcb61bd9 1-6
+01_baseline_blog/config/application.rb
+  s_27e720dfab3b7a::t_f8896361b0e8d5 1-39
+01_baseline_blog/config/boot.rb
+  s_27e720dfab3b7a::t_a099e3276271ed 1-4
+01_baseline_blog/config/bundler-audit.yml
+  s_27e720dfab3b7a::t_5a46a81a5a4fa8 1-5
+01_baseline_blog/config/ci.rb
+  s_27e720dfab3b7a::t_91d68ece5ede2a 1-21
+01_baseline_blog/config/credentials.yml.enc
+  s_27e720dfab3b7a::t_a0d4194ccfa168 1
+01_baseline_blog/config/database.yml
+  s_27e720dfab3b7a::t_f3798b613553c2 1-31
+01_baseline_blog/config/environment.rb
+  s_27e720dfab3b7a::t_aa0af233e40e73 1-5
+01_baseline_blog/config/environments/development.rb
+  s_27e720dfab3b7a::t_e8c3c1aec54b7e 1-69
+01_baseline_blog/config/environments/production.rb
+  s_27e720dfab3b7a::t_840c8155a24c58 1-86
+01_baseline_blog/config/environments/test.rb
+  s_27e720dfab3b7a::t_639ceff0dcd03a 1-50
+01_baseline_blog/config/importmap.rb
+  s_27e720dfab3b7a::t_6cf094aefddb21 1-7
+01_baseline_blog/config/initializers/assets.rb
+  s_27e720dfab3b7a::t_9608ab7a344058 1-7
+01_baseline_blog/config/initializers/content_security_policy.rb
+  s_27e720dfab3b7a::t_1eda34bc76ea8a 1-29
+01_baseline_blog/config/initializers/current_scope.rb
+  s_27e720dfab3b7a::t_bd1f99c44fa2d4 1-77
+01_baseline_blog/config/initializers/filter_parameter_logging.rb
+  s_27e720dfab3b7a::t_6afbc0c3d35ec5 1-8
+01_baseline_blog/config/initializers/inflections.rb
+  s_27e720dfab3b7a::t_8ffb4f71ed7612 1-16
+01_baseline_blog/config/locales/en.yml
+  s_27e720dfab3b7a::t_45c7999201a18b 1-31
+01_baseline_blog/config/puma.rb
+  s_27e720dfab3b7a::t_913fa462ba38d7 1-39
+01_baseline_blog/db/migrate/20260714212414_create_current_scope_tables.current_scope.rb
+  s_27e720dfab3b7a::t_368aae426293bf 1-32
+01_baseline_blog/db/migrate/20260714212415_create_current_scope_events.current_scope.rb
+  s_27e720dfab3b7a::t_64b4459560c59d 1-33
+01_baseline_blog/db/migrate/20260714212416_add_description_to_current_scope_roles.current_scope.rb
+  s_27e720dfab3b7a::t_e74bab30493299 1-6
+01_baseline_blog/db/migrate/20260714212426_create_posts.rb
+  s_27e720dfab3b7a::t_3c4b3eb612ae7e 1-10
+01_baseline_blog/db/migrate/20260714212427_create_comments.rb
+  s_27e720dfab3b7a::t_3e066909cf4984 1-10
+01_baseline_blog/db/migrate/20260714212428_create_users.rb
+  s_27e720dfab3b7a::t_16bc1988332e98 1-10
+01_baseline_blog/db/schema.rb
+  s_27e720dfab3b7a::t_c37bee4ccf30a9 1-93
+01_baseline_blog/db/seeds.rb
+  s_27e720dfab3b7a::t_a21dcfeb66abce 1-11
+01_baseline_blog/public/400.html
+  s_27e720dfab3b7a::t_0ce7bd480b04e1 1-135
+01_baseline_blog/public/404.html
+  s_27e720dfab3b7a::t_86dc21e0d0ed45 1-135
+01_baseline_blog/public/406-unsupported-browser.html
+  s_27e720dfab3b7a::t_b160d419546eae 1-135
+01_baseline_blog/public/422.html
+  s_27e720dfab3b7a::t_5ad4b97e170f79 1-135
+01_baseline_blog/public/500.html
+  s_27e720dfab3b7a::t_12b55409ae1a9e 1-135
+01_baseline_blog/public/icon.svg
+  s_27e720dfab3b7a::t_f71dd0b48275d4 1-3
+01_baseline_blog/public/robots.txt
+  s_27e720dfab3b7a::t_bb0d9171e82a56 1
+01_baseline_blog/test/controllers/comments_controller_test.rb
+  s_27e720dfab3b7a::t_d84c5d8ee732bf 1-53
+01_baseline_blog/test/fixtures/comments.yml
+  s_27e720dfab3b7a::t_6d99433e1bf23d 1-9
+01_baseline_blog/test/fixtures/posts.yml
+  s_27e720dfab3b7a::t_0199580cd4f686 1-9
+01_baseline_blog/test/fixtures/users.yml
+  s_27e720dfab3b7a::t_851ae62e7ea36a 1-9
+01_baseline_blog/test/models/comment_test.rb
+  s_27e720dfab3b7a::t_9a1427cae7a89c 1-7
+01_baseline_blog/test/models/post_test.rb
+  s_27e720dfab3b7a::t_adef7d61ceb339 1-7
+01_baseline_blog/test/models/user_test.rb
+  s_27e720dfab3b7a::t_b35676b171bcb6 1-7
+01_baseline_blog/test/test_helper.rb
+  s_27e720dfab3b7a::t_d62842613b7e9f 1-26
+02_custom_actions/.ruby-version
+  s_27e720dfab3b7a::t_e2f1299ca7f736 1
+02_custom_actions/Gemfile
+  s_27e720dfab3b7a::t_3b621d484e02cb 1-45
+02_custom_actions/Gemfile.lock
+  s_78450d8eb59756::t_b003fc99ae2d1b 1-307
+02_custom_actions/README.md
+  s_27e720dfab3b7a::t_6dd475627e64e6 1-24
+02_custom_actions/Rakefile
+  s_27e720dfab3b7a::t_581df5392cc01d 1-6
+02_custom_actions/app/assets/stylesheets/application.css
+  s_27e720dfab3b7a::t_f9996728b47257 1-10
+02_custom_actions/app/controllers/application_controller.rb
+  s_27e720dfab3b7a::t_8641477350c05d 1-11
+02_custom_actions/app/controllers/legacy_controller.rb
+  s_27e720dfab3b7a::t_75b2d7441cef67 1-11
+02_custom_actions/app/controllers/reports_controller.rb
+  s_27e720dfab3b7a::t_cf755a5014bc1c 1-80
+02_custom_actions/app/controllers/sessions_controller.rb
+  s_27e720dfab3b7a::t_54fe5f65a4c110 1-17
+02_custom_actions/app/controllers/wizard_controller.rb
+  s_27e720dfab3b7a::t_ad402d6d9f9b19 1-16
+02_custom_actions/app/helpers/application_helper.rb
+  s_27e720dfab3b7a::t_de978b2d1a8212 1-2
+02_custom_actions/app/javascript/application.js
+  s_27e720dfab3b7a::t_ab06cd722f44cc 1-3
+02_custom_actions/app/javascript/controllers/application.js
+  s_27e720dfab3b7a::t_fe392c71a1e06a 1-9
+02_custom_actions/app/javascript/controllers/hello_controller.js
+  s_27e720dfab3b7a::t_1b0143dafcea6c 1-7
+02_custom_actions/app/javascript/controllers/index.js
+  s_27e720dfab3b7a::t_24e6b08eb68752 1-4
+02_custom_actions/app/jobs/application_job.rb
+  s_27e720dfab3b7a::t_728b927d41bc9f 1-7
+02_custom_actions/app/mailers/application_mailer.rb
+  s_27e720dfab3b7a::t_979c0c81218fe8 1-4
+02_custom_actions/app/models/application_record.rb
+  s_27e720dfab3b7a::t_af84bd9f669350 1-3
+02_custom_actions/app/models/report.rb
+  s_27e720dfab3b7a::t_9f569d8e6d57b9 1-10
+02_custom_actions/app/models/user.rb
+  s_27e720dfab3b7a::t_cc646bf217cd90 1-3
+02_custom_actions/app/views/layouts/mailer.html.erb
+  s_27e720dfab3b7a::t_0c9522e48bd82e 1-13
+02_custom_actions/app/views/layouts/mailer.text.erb
+  s_27e720dfab3b7a::t_6822bdfe4dde7d 1
+02_custom_actions/app/views/pwa/manifest.json.erb
+  s_27e720dfab3b7a::t_a7e120e91ac98c 1-22
+02_custom_actions/app/views/pwa/service-worker.js
+  s_27e720dfab3b7a::t_aabe3b5310d31e 1-26
+02_custom_actions/app/views/reports/_form.html.erb
+  s_27e720dfab3b7a::t_2d623c07cde8bd 1-7
+02_custom_actions/app/views/reports/edit.html.erb
+  s_27e720dfab3b7a::t_9c816b63d65f6a 1-2
+02_custom_actions/app/views/reports/index.html.erb
+  s_27e720dfab3b7a::t_897a5bc6c73c41 1-14
+02_custom_actions/app/views/reports/new.html.erb
+  s_27e720dfab3b7a::t_e3b458d35df5fe 1-2
+02_custom_actions/app/views/sessions/index.html.erb
+  s_27e720dfab3b7a::t_015dc4fb289419 1-8
+02_custom_actions/bin/bundler-audit
+  s_27e720dfab3b7a::t_304ef580a07430 1-6
+02_custom_actions/bin/ci
+  s_27e720dfab3b7a::t_5b07fb6a5c7a35 1-6
+02_custom_actions/bin/dev
+  s_27e720dfab3b7a::t_49f77d75309b0d 1-2
+02_custom_actions/bin/importmap
+  s_27e720dfab3b7a::t_e4cb8e92b73e8d 1-4
+02_custom_actions/bin/rails
+  s_27e720dfab3b7a::t_ba4fb21fc05ddb 1-4
+02_custom_actions/bin/rake
+  s_27e720dfab3b7a::t_68a87ca426f4f6 1-4
+02_custom_actions/bin/setup
+  s_27e720dfab3b7a::t_cf64a71a7916a1 1-35
+02_custom_actions/config.ru
+  s_27e720dfab3b7a::t_e0610d7d2fdb9b 1-6
+02_custom_actions/config/application.rb
+  s_27e720dfab3b7a::t_b4c58fb7abde5d 1-39
+02_custom_actions/config/boot.rb
+  s_27e720dfab3b7a::t_41025ef0a358fc 1-4
+02_custom_actions/config/bundler-audit.yml
+  s_27e720dfab3b7a::t_c226895936ee8e 1-5
+02_custom_actions/config/ci.rb
+  s_27e720dfab3b7a::t_be411d21d95b68 1-21
+02_custom_actions/config/credentials.yml.enc
+  s_27e720dfab3b7a::t_71f97e500d498d 1
+02_custom_actions/config/database.yml
+  s_27e720dfab3b7a::t_8373b8e2d90fa6 1-31
+02_custom_actions/config/environment.rb
+  s_27e720dfab3b7a::t_4ee9da5f2638f1 1-5
+02_custom_actions/config/environments/development.rb
+  s_27e720dfab3b7a::t_4d1daeeb4b5ce8 1-69
+02_custom_actions/config/environments/production.rb
+  s_27e720dfab3b7a::t_de23bbe596145a 1-86
+02_custom_actions/config/environments/test.rb
+  s_27e720dfab3b7a::t_b401ba72bf0b46 1-50
+02_custom_actions/config/importmap.rb
+  s_27e720dfab3b7a::t_b95c5e3507668c 1-7
+02_custom_actions/config/initializers/assets.rb
+  s_27e720dfab3b7a::t_807d52fd5b2b88 1-7
+02_custom_actions/config/initializers/content_security_policy.rb
+  s_27e720dfab3b7a::t_43d37dafbe0913 1-29
+02_custom_actions/config/initializers/filter_parameter_logging.rb
+  s_27e720dfab3b7a::t_e10829e1165289 1-8
+02_custom_actions/config/initializers/inflections.rb
+  s_27e720dfab3b7a::t_6025bc9270817f 1-16
+02_custom_actions/config/locales/en.yml
+  s_27e720dfab3b7a::t_71fe219be563c7 1-31
+02_custom_actions/config/puma.rb
+  s_27e720dfab3b7a::t_4fee2fd2cd7416 1-39
+02_custom_actions/config/routes.rb
+  s_27e720dfab3b7a::t_5650017252522c 1-36
+02_custom_actions/db/migrate/20260714212438_create_current_scope_tables.current_scope.rb
+  s_27e720dfab3b7a::t_bd4b1bf3e1a908 1-32
+02_custom_actions/db/migrate/20260714212439_create_current_scope_events.current_scope.rb
+  s_27e720dfab3b7a::t_779903ef346fca 1-33
+02_custom_actions/db/migrate/20260714212440_add_description_to_current_scope_roles.current_scope.rb
+  s_27e720dfab3b7a::t_71b58ad4c289ad 1-6
+02_custom_actions/db/migrate/20260714212515_create_users.rb
+  s_27e720dfab3b7a::t_b2c1ade310ce7e 1-10
+02_custom_actions/db/migrate/20260714212516_create_reports.rb
+  s_27e720dfab3b7a::t_281db1509cf395 1-11
+02_custom_actions/db/schema.rb
+  s_27e720dfab3b7a::t_44d31c69af4174 1-87
+02_custom_actions/db/seeds.rb
+  s_27e720dfab3b7a::t_40b7e7a7202fe8 1-11
+02_custom_actions/public/400.html
+  s_27e720dfab3b7a::t_9905321ccb3ae2 1-135
+02_custom_actions/public/404.html
+  s_27e720dfab3b7a::t_ffaf1158a57bc7 1-135
+02_custom_actions/public/406-unsupported-browser.html
+  s_27e720dfab3b7a::t_1fd3ff15843014 1-135
+02_custom_actions/public/422.html
+  s_27e720dfab3b7a::t_27e87bc3bb4c1b 1-135
+02_custom_actions/public/500.html
+  s_27e720dfab3b7a::t_b30f722946234f 1-135
+02_custom_actions/public/icon.svg
+  s_27e720dfab3b7a::t_4741c64450ec00 1-3
+02_custom_actions/public/robots.txt
+  s_27e720dfab3b7a::t_a8f9d414707b0f 1
+02_custom_actions/test/integration/catalog_test.rb
+  s_27e720dfab3b7a::t_ad0e6ebd4dad38 1-30
+02_custom_actions/test/integration/probes_test.rb
+  s_78450d8eb59756::t_050f9380fc9760 1-90
+02_custom_actions/test/integration/reports_access_test.rb
+  s_27e720dfab3b7a::t_59400ee94da0cd 1-107
+02_custom_actions/test/integration/scope_for_test.rb
+  s_27e720dfab3b7a::t_604a3d05b58619 1-43
+03_god_controller/.ruby-version
+  s_27e720dfab3b7a::t_921deef7f9f610 1
+03_god_controller/Gemfile
+  s_27e720dfab3b7a::t_89549205c5e11f 1-45
+03_god_controller/Gemfile.lock
+  s_78450d8eb59756::t_4d7cc7f9c7a5cd 1-307
+03_god_controller/README.md
+  s_27e720dfab3b7a::t_af1abbcf9d0f4a 1-24
+03_god_controller/Rakefile
+  s_27e720dfab3b7a::t_0db8e0de1cb628 1-6
+03_god_controller/app/assets/stylesheets/application.css
+  s_27e720dfab3b7a::t_1ebff8a45641c1 1-10
+03_god_controller/app/controllers/application_controller.rb
+  s_27e720dfab3b7a::t_b21b717d09d1dd 1-20
+03_god_controller/app/controllers/sessions_controller.rb
+  s_27e720dfab3b7a::t_30a44fc3227d33 1-18
+03_god_controller/app/helpers/application_helper.rb
+  s_27e720dfab3b7a::t_ba9086ce4e71e9 1-2
+03_god_controller/app/javascript/application.js
+  s_27e720dfab3b7a::t_c38ca89edc8903 1-3
+03_god_controller/app/javascript/controllers/application.js
+  s_27e720dfab3b7a::t_d30d51f078a16b 1-9
+03_god_controller/app/javascript/controllers/hello_controller.js
+  s_27e720dfab3b7a::t_235e768593f975 1-7
+03_god_controller/app/javascript/controllers/index.js
+  s_27e720dfab3b7a::t_4b4392e802a575 1-4
+03_god_controller/app/jobs/application_job.rb
+  s_27e720dfab3b7a::t_64b62b9fb1231e 1-7
+03_god_controller/app/mailers/application_mailer.rb
+  s_27e720dfab3b7a::t_4f6f49d1f4d2c4 1-4
+03_god_controller/app/models/application_record.rb
+  s_27e720dfab3b7a::t_a40ff1f75d89b2 1-3
+03_god_controller/app/models/customer.rb
+  s_27e720dfab3b7a::t_1f059ded118ba4 1-2
+03_god_controller/app/models/order.rb
+  s_27e720dfab3b7a::t_361a26b31b3e3a 1-2
+03_god_controller/app/models/user.rb
+  s_27e720dfab3b7a::t_ad116009ae24cc 1-2
+03_god_controller/app/models/widget.rb
+  s_27e720dfab3b7a::t_8f6203d580ca94 1-2
+03_god_controller/app/views/layouts/application.html.erb
+  s_27e720dfab3b7a::t_800849e7e398e7 1-30
+03_god_controller/app/views/layouts/mailer.html.erb
+  s_27e720dfab3b7a::t_e34d59e79c01db 1-13
+03_god_controller/app/views/layouts/mailer.text.erb
+  s_27e720dfab3b7a::t_3fd1f395d3aaa9 1
+03_god_controller/app/views/legacy/dashboard.html.erb
+  s_27e720dfab3b7a::t_343038e1ef830c 1-9
+03_god_controller/app/views/legacy/settings.html.erb
+  s_27e720dfab3b7a::t_8130e2468c76cc 1-4
+03_god_controller/app/views/pwa/manifest.json.erb
+  s_27e720dfab3b7a::t_f880be4546912f 1-22
+03_god_controller/app/views/pwa/service-worker.js
+  s_27e720dfab3b7a::t_c437e3f4bcc6c0 1-26
+03_god_controller/app/views/sessions/index.html.erb
+  s_27e720dfab3b7a::t_f5013faad8cce8 1-10
+03_god_controller/bin/bundler-audit
+  s_27e720dfab3b7a::t_a95aaa8a6678dd 1-6
+03_god_controller/bin/ci
+  s_27e720dfab3b7a::t_1d52d3c6150113 1-6
+03_god_controller/bin/dev
+  s_27e720dfab3b7a::t_89a096b291ecda 1-2
+03_god_controller/bin/importmap
+  s_27e720dfab3b7a::t_c605a0f18bb01f 1-4
+03_god_controller/bin/rails
+  s_27e720dfab3b7a::t_2b6f6da46cc8ea 1-4
+03_god_controller/bin/rake
+  s_27e720dfab3b7a::t_35edb338a82155 1-4
+03_god_controller/bin/setup
+  s_27e720dfab3b7a::t_cbafecc011af7b 1-35
+03_god_controller/config.ru
+  s_27e720dfab3b7a::t_dde5de60fd5dd3 1-6
+03_god_controller/config/application.rb
+  s_27e720dfab3b7a::t_c321829ed1ea3a 1-39
+03_god_controller/config/boot.rb
+  s_27e720dfab3b7a::t_c9de967e3e2bdd 1-4
+03_god_controller/config/bundler-audit.yml
+  s_27e720dfab3b7a::t_91bed6ee30357f 1-5
+03_god_controller/config/ci.rb
+  s_27e720dfab3b7a::t_6f91054d70b8fe 1-21
+03_god_controller/config/credentials.yml.enc
+  s_27e720dfab3b7a::t_1a894d59606900 1
+03_god_controller/config/database.yml
+  s_27e720dfab3b7a::t_8f8c692f6a23f1 1-31
+03_god_controller/config/environment.rb
+  s_27e720dfab3b7a::t_abc3beb9187c01 1-5
+03_god_controller/config/environments/development.rb
+  s_27e720dfab3b7a::t_fec0862ede0db5 1-69
+03_god_controller/config/environments/production.rb
+  s_27e720dfab3b7a::t_dc8fc5b80b8dc8 1-86
+03_god_controller/config/environments/test.rb
+  s_27e720dfab3b7a::t_702ed8c500e293 1-50
+03_god_controller/config/importmap.rb
+  s_27e720dfab3b7a::t_0df6b06054d42f 1-7
+03_god_controller/config/initializers/assets.rb
+  s_27e720dfab3b7a::t_ad630fdfbbc8e2 1-7
+03_god_controller/config/initializers/content_security_policy.rb
+  s_27e720dfab3b7a::t_e42ce06ffcc5fe 1-29
+03_god_controller/config/initializers/current_scope.rb
+  s_27e720dfab3b7a::t_feff4cd99e3c6d 1-77
+03_god_controller/config/initializers/filter_parameter_logging.rb
+  s_27e720dfab3b7a::t_5ef05a1110bcf4 1-8
+03_god_controller/config/initializers/inflections.rb
+  s_27e720dfab3b7a::t_2a0e526fe1a209 1-16
+03_god_controller/config/locales/en.yml
+  s_27e720dfab3b7a::t_a0f2de40e152e0 1-31
+03_god_controller/config/puma.rb
+  s_27e720dfab3b7a::t_e5f057154d10f1 1-39
+03_god_controller/db/migrate/20260714212429_create_users.rb
+  s_27e720dfab3b7a::t_f1db67db69abef 1-10
+03_god_controller/db/migrate/20260714212430_create_customers.rb
+  s_27e720dfab3b7a::t_498a0289649c26 1-10
+03_god_controller/db/migrate/20260714212431_create_orders.rb
+  s_27e720dfab3b7a::t_fe3084abfc5563 1-11
+03_god_controller/db/migrate/20260714212432_create_widgets.rb
+  s_27e720dfab3b7a::t_94d886f7bf04e5 1-9
+03_god_controller/db/migrate/20260714212743_create_current_scope_tables.current_scope.rb
+  s_27e720dfab3b7a::t_7c50f8312b80b8 1-32
+03_god_controller/db/migrate/20260714212744_create_current_scope_events.current_scope.rb
+  s_27e720dfab3b7a::t_23354e2e62a653 1-33
+03_god_controller/db/migrate/20260714212745_add_description_to_current_scope_roles.current_scope.rb
+  s_27e720dfab3b7a::t_4f1143de13e5ee 1-6
+03_god_controller/db/schema.rb
+  s_27e720dfab3b7a::t_9a5d2bec2e32a8 1-98
+03_god_controller/db/seeds.rb
+  s_27e720dfab3b7a::t_d9d37c30e753a8 1-13
+03_god_controller/public/400.html
+  s_27e720dfab3b7a::t_1ef3a48c3d2652 1-135
+03_god_controller/public/404.html
+  s_27e720dfab3b7a::t_f1da59ca3d385a 1-135
+03_god_controller/public/406-unsupported-browser.html
+  s_27e720dfab3b7a::t_37be87b124c70e 1-135
+03_god_controller/public/422.html
+  s_27e720dfab3b7a::t_d9982cf2eda400 1-135
+03_god_controller/public/500.html
+  s_27e720dfab3b7a::t_a3906f48ba7f27 1-135
+03_god_controller/public/icon.svg
+  s_27e720dfab3b7a::t_0bcfa1433e8978 1-3
+03_god_controller/public/robots.txt
+  s_27e720dfab3b7a::t_3f8e85655a13c2 1
+03_god_controller/test/integration/excluded_controller_test.rb
+  s_27e720dfab3b7a::t_d79e601286b630 1-35
+03_god_controller/test/integration/grid_ui_test.rb
+  s_27e720dfab3b7a::t_16e51332fb0fcd 1-57
+03_god_controller/test/integration/sub_controller_test.rb
+  s_27e720dfab3b7a::t_f9bde588583c62 1-41
+04_sod_matrix/.ruby-version
+  s_27e720dfab3b7a::t_d1b50acaa37a3f 1
+04_sod_matrix/Gemfile
+  s_27e720dfab3b7a::t_438c283f59d9b1 1-46
+04_sod_matrix/Gemfile.lock
+  s_78450d8eb59756::t_955980ad742192 1-307
+04_sod_matrix/README.md
+  s_27e720dfab3b7a::t_41174b9a74a7bf 1-24
+04_sod_matrix/Rakefile
+  s_27e720dfab3b7a::t_69b948121ec49b 1-6
+04_sod_matrix/app/assets/stylesheets/application.css
+  s_27e720dfab3b7a::t_58fba6e65034e3 1-10
+04_sod_matrix/app/controllers/impersonations_controller.rb
+  s_27e720dfab3b7a::t_d815fae97839c4 1-16
+04_sod_matrix/app/controllers/sessions_controller.rb
+  s_27e720dfab3b7a::t_228ede7b35b210 1-20
+04_sod_matrix/app/helpers/application_helper.rb
+  s_27e720dfab3b7a::t_1b5380026764d9 1-2
+04_sod_matrix/app/javascript/application.js
+  s_27e720dfab3b7a::t_b1a25e3cc82a88 1-3
+04_sod_matrix/app/javascript/controllers/application.js
+  s_27e720dfab3b7a::t_916732bfe1cd12 1-9
+04_sod_matrix/app/javascript/controllers/hello_controller.js
+  s_27e720dfab3b7a::t_4f00b093ad8de7 1-7
+04_sod_matrix/app/javascript/controllers/index.js
+  s_27e720dfab3b7a::t_83dd1024a7afd0 1-4
+04_sod_matrix/app/jobs/application_job.rb
+  s_27e720dfab3b7a::t_198cdced15b5d1 1-7
+04_sod_matrix/app/mailers/application_mailer.rb
+  s_27e720dfab3b7a::t_89d18041e1ce2c 1-4
+04_sod_matrix/app/models/application_record.rb
+  s_27e720dfab3b7a::t_9562ce4c679f02 1-3
+04_sod_matrix/app/models/expense.rb
+  s_27e720dfab3b7a::t_d1fb2bb9d8c291 1-6
+04_sod_matrix/app/models/invoice.rb
+  s_27e720dfab3b7a::t_dd4e0883d32aab 1-5
+04_sod_matrix/app/models/user.rb
+  s_27e720dfab3b7a::t_97869d0e0a8f07 1-2
+04_sod_matrix/app/views/layouts/mailer.html.erb
+  s_27e720dfab3b7a::t_dc8853327bba4c 1-13
+04_sod_matrix/app/views/layouts/mailer.text.erb
+  s_27e720dfab3b7a::t_65ba408083a6ba 1
+04_sod_matrix/app/views/pwa/manifest.json.erb
+  s_27e720dfab3b7a::t_52182adbc75f1a 1-22
+04_sod_matrix/app/views/pwa/service-worker.js
+  s_27e720dfab3b7a::t_6f71481ae3e1c5 1-26
+04_sod_matrix/bin/bundler-audit
+  s_27e720dfab3b7a::t_58b5f52cce71f5 1-6
+04_sod_matrix/bin/ci
+  s_27e720dfab3b7a::t_708d405379ba29 1-6
+04_sod_matrix/bin/dev
+  s_27e720dfab3b7a::t_224c6d2addd92f 1-2
+04_sod_matrix/bin/importmap
+  s_27e720dfab3b7a::t_4e5a57edda47e7 1-4
+04_sod_matrix/bin/rails
+  s_27e720dfab3b7a::t_042413934f0485 1-4
+04_sod_matrix/bin/rake
+  s_27e720dfab3b7a::t_6f5192ae9eba55 1-4
+04_sod_matrix/bin/setup
+  s_27e720dfab3b7a::t_a0500c6b88e4f6 1-35
+04_sod_matrix/config.ru
+  s_27e720dfab3b7a::t_e682934d996501 1-6
+04_sod_matrix/config/application.rb
+  s_27e720dfab3b7a::t_73363c978a0084 1-39
+04_sod_matrix/config/boot.rb
+  s_27e720dfab3b7a::t_9d0d6756690dc6 1-4
+04_sod_matrix/config/bundler-audit.yml
+  s_27e720dfab3b7a::t_5366136367fcba 1-5
+04_sod_matrix/config/ci.rb
+  s_27e720dfab3b7a::t_39611f24342b5a 1-21
+04_sod_matrix/config/credentials.yml.enc
+  s_27e720dfab3b7a::t_6926f7759fa535 1
+04_sod_matrix/config/database.yml
+  s_27e720dfab3b7a::t_186e68f4bf75b8 1-31
+04_sod_matrix/config/environment.rb
+  s_27e720dfab3b7a::t_5072eb345ba5b4 1-5
+04_sod_matrix/config/environments/development.rb
+  s_27e720dfab3b7a::t_a319e3c512cb8f 1-69
+04_sod_matrix/config/environments/production.rb
+  s_27e720dfab3b7a::t_f85c1b7a906ef4 1-86
+04_sod_matrix/config/environments/test.rb
+  s_27e720dfab3b7a::t_db6b5f34cdce4f 1-50
+04_sod_matrix/config/importmap.rb
+  s_27e720dfab3b7a::t_4a2fef8af63305 1-7
+04_sod_matrix/config/initializers/assets.rb
+  s_27e720dfab3b7a::t_2ef5e953a08b1d 1-7
+04_sod_matrix/config/initializers/content_security_policy.rb
+  s_27e720dfab3b7a::t_055ff0a0d9c41d 1-29
+04_sod_matrix/config/initializers/filter_parameter_logging.rb
+  s_27e720dfab3b7a::t_b862446bd8323b 1-8
+04_sod_matrix/config/initializers/inflections.rb
+  s_27e720dfab3b7a::t_a1f560e4cea485 1-16
+04_sod_matrix/config/locales/en.yml
+  s_27e720dfab3b7a::t_22d0261c12de6b 1-31
+04_sod_matrix/config/puma.rb
+  s_27e720dfab3b7a::t_046b3ccc69cb5b 1-39
+04_sod_matrix/config/routes.rb
+  s_27e720dfab3b7a::t_c61cf06110db8d 1-24
+04_sod_matrix/db/migrate/20260714212511_create_current_scope_tables.current_scope.rb
+  s_27e720dfab3b7a::t_8c04683764db9c 1-32
+04_sod_matrix/db/migrate/20260714212512_create_current_scope_events.current_scope.rb
+  s_27e720dfab3b7a::t_fd4c3f7f7c3f41 1-33
+04_sod_matrix/db/migrate/20260714212513_add_description_to_current_scope_roles.current_scope.rb
+  s_27e720dfab3b7a::t_4eff1fc5f4121e 1-6
+04_sod_matrix/db/migrate/20260714212525_create_users.rb
+  s_27e720dfab3b7a::t_2153c8d1bbc1f6 1-10
+04_sod_matrix/db/migrate/20260714212526_create_expenses.rb
+  s_27e720dfab3b7a::t_88cf947f5e51e5 1-12
+04_sod_matrix/db/migrate/20260714212527_create_invoices.rb
+  s_27e720dfab3b7a::t_4558745abe7516 1-11
+04_sod_matrix/db/schema.rb
+  s_27e720dfab3b7a::t_aa9808d5d0b323 1-98
+04_sod_matrix/public/400.html
+  s_27e720dfab3b7a::t_aaaebdff8431b6 1-135
+04_sod_matrix/public/404.html
+  s_27e720dfab3b7a::t_aab5cd839a57a0 1-135
+04_sod_matrix/public/406-unsupported-browser.html
+  s_27e720dfab3b7a::t_ffc6de0f275172 1-135
+04_sod_matrix/public/422.html
+  s_27e720dfab3b7a::t_40525fce4a0754 1-135
+04_sod_matrix/public/500.html
+  s_27e720dfab3b7a::t_36b322e9a1c5c4 1-135
+04_sod_matrix/public/icon.svg
+  s_27e720dfab3b7a::t_74d08b88996059 1-3
+04_sod_matrix/public/robots.txt
+  s_27e720dfab3b7a::t_6f78295940a413 1
+05_legacy_ui_overrides/.ruby-version
+  s_27e720dfab3b7a::t_1eb25943eacb17 1
+05_legacy_ui_overrides/Gemfile
+  s_27e720dfab3b7a::t_09ea959c0d3127 1-46
+05_legacy_ui_overrides/Gemfile.lock
+  s_78450d8eb59756::t_61f225afaff553 1-307
+05_legacy_ui_overrides/README.md
+  s_27e720dfab3b7a::t_457fa9942139f3 1-24
+05_legacy_ui_overrides/Rakefile
+  s_27e720dfab3b7a::t_9ccc173a3b59a8 1-6
+05_legacy_ui_overrides/app/assets/stylesheets/application.css
+  s_27e720dfab3b7a::t_db0c4d5ae2e412 1-10
+05_legacy_ui_overrides/app/controllers/admin/reports_controller.rb
+  s_27e720dfab3b7a::t_f5400233354269 1-49
+05_legacy_ui_overrides/app/controllers/application_controller.rb
+  s_27e720dfab3b7a::t_60bea54af171bf 1-22
+05_legacy_ui_overrides/app/controllers/dashboard_controller.rb
+  s_27e720dfab3b7a::t_ce1d12b62c77df 1-5
+05_legacy_ui_overrides/app/controllers/sessions_controller.rb
+  s_27e720dfab3b7a::t_61cf16bfb88687 1-17
+05_legacy_ui_overrides/app/helpers/application_helper.rb
+  s_27e720dfab3b7a::t_46a8108f062468 1-2
+05_legacy_ui_overrides/app/javascript/application.js
+  s_27e720dfab3b7a::t_f0d2840b68ecc0 1-3
+05_legacy_ui_overrides/app/javascript/controllers/application.js
+  s_27e720dfab3b7a::t_6d5e29ae3a18f0 1-9
+05_legacy_ui_overrides/app/javascript/controllers/hello_controller.js
+  s_27e720dfab3b7a::t_ca16eba5101a2f 1-7
+05_legacy_ui_overrides/app/javascript/controllers/index.js
+  s_27e720dfab3b7a::t_d3bcd93d7b7988 1-4
+05_legacy_ui_overrides/app/jobs/application_job.rb
+  s_27e720dfab3b7a::t_50e18ad853ca87 1-7
+05_legacy_ui_overrides/app/mailers/application_mailer.rb
+  s_27e720dfab3b7a::t_ebc8de1504820f 1-4
+05_legacy_ui_overrides/app/models/application_record.rb
+  s_27e720dfab3b7a::t_30dc000ea56622 1-3
+05_legacy_ui_overrides/app/models/user.rb
+  s_27e720dfab3b7a::t_a740742be5afda 1-2
+05_legacy_ui_overrides/app/views/admin/reports/index.html.erb
+  s_27e720dfab3b7a::t_6030dc2d7613eb 1-18
+05_legacy_ui_overrides/app/views/admin/reports/show.html.erb
+  s_27e720dfab3b7a::t_4f6849863d67b0 1-4
+05_legacy_ui_overrides/app/views/layouts/admin.html.erb
+  s_27e720dfab3b7a::t_427d5b070e8144 1-23
+05_legacy_ui_overrides/app/views/layouts/application.html.erb
+  s_27e720dfab3b7a::t_5e3209db405f72 1-34
+05_legacy_ui_overrides/app/views/layouts/mailer.html.erb
+  s_27e720dfab3b7a::t_04f3c3641aa9b6 1-13
+05_legacy_ui_overrides/app/views/layouts/mailer.text.erb
+  s_27e720dfab3b7a::t_ae64f4c7cb5bc6 1
+05_legacy_ui_overrides/app/views/pwa/manifest.json.erb
+  s_27e720dfab3b7a::t_c219539fcb36ea 1-22
+05_legacy_ui_overrides/app/views/pwa/service-worker.js
+  s_27e720dfab3b7a::t_8bbc1cc3862322 1-26
+05_legacy_ui_overrides/app/views/reports/_form.html.erb
+  s_27e720dfab3b7a::t_befd3b0305264d 1-11
+05_legacy_ui_overrides/app/views/reports/index.html.erb
+  s_27e720dfab3b7a::t_e63ef6428de04f 1-32
+05_legacy_ui_overrides/app/views/reports/show.html.erb
+  s_27e720dfab3b7a::t_009e76715ba394 1-4
+05_legacy_ui_overrides/bin/bundler-audit
+  s_27e720dfab3b7a::t_e3921a118936aa 1-6
+05_legacy_ui_overrides/bin/ci
+  s_27e720dfab3b7a::t_8f40c690756de7 1-6
+05_legacy_ui_overrides/bin/dev
+  s_27e720dfab3b7a::t_b4f4f11d292f7f 1-2
+05_legacy_ui_overrides/bin/importmap
+  s_27e720dfab3b7a::t_bf8ee554891f2c 1-4
+05_legacy_ui_overrides/bin/rails
+  s_27e720dfab3b7a::t_12fd17bb97b195 1-4
+05_legacy_ui_overrides/bin/rake
+  s_27e720dfab3b7a::t_e895d940039729 1-4
+05_legacy_ui_overrides/bin/setup
+  s_27e720dfab3b7a::t_a6d5dc4a3ca1ba 1-35
+05_legacy_ui_overrides/config.ru
+  s_27e720dfab3b7a::t_da497bbc9a655a 1-6
+05_legacy_ui_overrides/config/application.rb
+  s_27e720dfab3b7a::t_9679ca60110254 1-39
+05_legacy_ui_overrides/config/boot.rb
+  s_27e720dfab3b7a::t_5bd12bff8ef884 1-4
+05_legacy_ui_overrides/config/bundler-audit.yml
+  s_27e720dfab3b7a::t_6730eee17d5678 1-5
+05_legacy_ui_overrides/config/ci.rb
+  s_27e720dfab3b7a::t_873785e3deaecd 1-21
+05_legacy_ui_overrides/config/credentials.yml.enc
+  s_27e720dfab3b7a::t_d01d9fcdfd867b 1
+05_legacy_ui_overrides/config/database.yml
+  s_27e720dfab3b7a::t_cf2fa64c937e69 1-31
+05_legacy_ui_overrides/config/environment.rb
+  s_27e720dfab3b7a::t_bc8aecc6886a05 1-5
+05_legacy_ui_overrides/config/environments/development.rb
+  s_27e720dfab3b7a::t_6e78e1c6cb5253 1-69
+05_legacy_ui_overrides/config/environments/production.rb
+  s_27e720dfab3b7a::t_8fb33afe20a8b8 1-86
+05_legacy_ui_overrides/config/environments/test.rb
+  s_27e720dfab3b7a::t_b36cd64fdb8d6f 1-50
+05_legacy_ui_overrides/config/importmap.rb
+  s_27e720dfab3b7a::t_8f150ff415d31f 1-7
+05_legacy_ui_overrides/config/initializers/assets.rb
+  s_27e720dfab3b7a::t_a3617af8b87212 1-7
+05_legacy_ui_overrides/config/initializers/content_security_policy.rb
+  s_27e720dfab3b7a::t_eb093eadf5d060 1-29
+05_legacy_ui_overrides/config/initializers/filter_parameter_logging.rb
+  s_27e720dfab3b7a::t_9c3a1c6551cad1 1-8
+05_legacy_ui_overrides/config/initializers/inflections.rb
+  s_27e720dfab3b7a::t_46c56840a2550b 1-16
+05_legacy_ui_overrides/config/locales/en.yml
+  s_27e720dfab3b7a::t_d1f72fd6da2a9d 1-31
+05_legacy_ui_overrides/config/puma.rb
+  s_27e720dfab3b7a::t_684dff05da4b47 1-39
+05_legacy_ui_overrides/config/routes.rb
+  s_27e720dfab3b7a::t_0c25b0c621bc65 1-19
+05_legacy_ui_overrides/db/migrate/20260714212559_create_users.rb
+  s_27e720dfab3b7a::t_4d78463e69ce03 1-11
+05_legacy_ui_overrides/db/migrate/20260714212600_create_reports.rb
+  s_27e720dfab3b7a::t_6ca1791d2cbcb8 1-10
+05_legacy_ui_overrides/db/migrate/20260714212601_create_projects.rb
+  s_27e720dfab3b7a::t_3f7d7d338cd177 1-9
+05_legacy_ui_overrides/db/migrate/20260714212612_create_current_scope_tables.current_scope.rb
+  s_27e720dfab3b7a::t_bde5e84d7d6c99 1-32
+05_legacy_ui_overrides/db/migrate/20260714212613_create_current_scope_events.current_scope.rb
+  s_27e720dfab3b7a::t_6368d7f71cceda 1-33
+05_legacy_ui_overrides/db/migrate/20260714212614_add_description_to_current_scope_roles.current_scope.rb
+  s_27e720dfab3b7a::t_be977f8a42a917 1-6
+05_legacy_ui_overrides/db/schema.rb
+  s_27e720dfab3b7a::t_a7b1745f358926 1-91
+05_legacy_ui_overrides/public/400.html
+  s_27e720dfab3b7a::t_05c0ef9a8e4f05 1-135
+05_legacy_ui_overrides/public/404.html
+  s_27e720dfab3b7a::t_4fd842547ae041 1-135
+05_legacy_ui_overrides/public/406-unsupported-browser.html
+  s_27e720dfab3b7a::t_d50e290402d132 1-135
+05_legacy_ui_overrides/public/422.html
+  s_27e720dfab3b7a::t_0e15222860f3e7 1-135
+05_legacy_ui_overrides/public/500.html
+  s_27e720dfab3b7a::t_8bd9a33134bd4e 1-135
+05_legacy_ui_overrides/public/icon.svg
+  s_27e720dfab3b7a::t_ef0c008249bee7 1-3
+05_legacy_ui_overrides/public/robots.txt
+  s_27e720dfab3b7a::t_4e2969e2c3d788 1
+05_legacy_ui_overrides/test/fixtures/projects.yml
+  s_27e720dfab3b7a::t_fabb5149b46192 1-2
+05_legacy_ui_overrides/test/fixtures/reports.yml
+  s_27e720dfab3b7a::t_a2cac3ee1984a2 1-7
+05_legacy_ui_overrides/test/fixtures/users.yml
+  s_27e720dfab3b7a::t_6492b0a08ad6d8 1-18
+05_legacy_ui_overrides/test/integration/engine_ui_test.rb
+  s_78450d8eb59756::t_961579623ed8bc 1-205
+05_legacy_ui_overrides/test/models/project_test.rb
+  s_27e720dfab3b7a::t_671af6e5c2ee7a 1-7
+05_legacy_ui_overrides/test/models/report_test.rb
+  s_27e720dfab3b7a::t_7d8943329f96b0 1-7
+05_legacy_ui_overrides/test/models/user_test.rb
+  s_27e720dfab3b7a::t_42bbc2d379620c 1-7
+05_legacy_ui_overrides/test/probes/grid_presentation_probe.rb
+  s_27e720dfab3b7a::t_c58f7a18cbb85f 1-35
+06_api_and_edge/.ruby-version
+  s_27e720dfab3b7a::t_f6a0c464a4f2e9 1
+06_api_and_edge/FINDINGS.md
+  s_78450d8eb59756::t_b9cda4c55f61a8 1-264
+06_api_and_edge/Gemfile
+  s_27e720dfab3b7a::t_0ca4de141894d8 1-45
+06_api_and_edge/Gemfile.lock
+  s_78450d8eb59756::t_5578f256824d8a 1-307
+06_api_and_edge/README.md
+  s_27e720dfab3b7a::t_51b76180e98468 1-24
+06_api_and_edge/Rakefile
+  s_27e720dfab3b7a::t_c0ec9b411388d1 1-6
+06_api_and_edge/app/assets/stylesheets/application.css
+  s_27e720dfab3b7a::t_396d8dc0605b6c 1-10
+06_api_and_edge/app/controllers/api/halted_controller.rb
+  s_27e720dfab3b7a::t_7b80f047ec4f45 1-13
+06_api_and_edge/app/controllers/api/health_controller.rb
+  s_27e720dfab3b7a::t_4fe1e3fef89f76 1-17
+06_api_and_edge/app/controllers/items_controller.rb
+  s_27e720dfab3b7a::t_f0f2a75a072687 1-6
+06_api_and_edge/app/controllers/sessions_controller.rb
+  s_27e720dfab3b7a::t_a5bb38e5ba7a7a 1-17
+06_api_and_edge/app/helpers/application_helper.rb
+  s_27e720dfab3b7a::t_24afcf79827ed6 1-2
+06_api_and_edge/app/javascript/application.js
+  s_27e720dfab3b7a::t_0e4e8a4c8f8237 1-3
+06_api_and_edge/app/javascript/controllers/application.js
+  s_27e720dfab3b7a::t_5e0009d7628850 1-9
+06_api_and_edge/app/javascript/controllers/hello_controller.js
+  s_27e720dfab3b7a::t_c9a6f963db387a 1-7
+06_api_and_edge/app/javascript/controllers/index.js
+  s_27e720dfab3b7a::t_577246106e3d5c 1-4
+06_api_and_edge/app/jobs/application_job.rb
+  s_27e720dfab3b7a::t_47642cd4e2f0e6 1-7
+06_api_and_edge/app/jobs/probe_job.rb
+  s_27e720dfab3b7a::t_a8802a8dd5273d 1-9
+06_api_and_edge/app/mailers/application_mailer.rb
+  s_27e720dfab3b7a::t_095c50272e8904 1-4
+06_api_and_edge/app/models/application_record.rb
+  s_27e720dfab3b7a::t_2feb71b3cbce58 1-3
+06_api_and_edge/app/models/item.rb
+  s_27e720dfab3b7a::t_b30213b48e398e 1-7
+06_api_and_edge/app/models/user.rb
+  s_27e720dfab3b7a::t_c5cccdcec86977 1-3
+06_api_and_edge/app/views/items/index.html.erb
+  s_27e720dfab3b7a::t_a5704396f0f8d2 1-6
+06_api_and_edge/app/views/layouts/mailer.html.erb
+  s_27e720dfab3b7a::t_3c00cc2b7d8d40 1-13
+06_api_and_edge/app/views/layouts/mailer.text.erb
+  s_27e720dfab3b7a::t_3ab896ebeb44c7 1
+06_api_and_edge/app/views/pwa/manifest.json.erb
+  s_27e720dfab3b7a::t_202c3f7b7d47e8 1-22
+06_api_and_edge/app/views/pwa/service-worker.js
+  s_27e720dfab3b7a::t_b5b867349c9081 1-26
+06_api_and_edge/app/views/sessions/index.html.erb
+  s_27e720dfab3b7a::t_4fe51ba8b223d5 1-12
+06_api_and_edge/bin/bundler-audit
+  s_27e720dfab3b7a::t_03f96281e41d31 1-6
+06_api_and_edge/bin/ci
+  s_27e720dfab3b7a::t_710b9702610fd6 1-6
+06_api_and_edge/bin/dev
+  s_27e720dfab3b7a::t_8adf5996843b23 1-2
+06_api_and_edge/bin/importmap
+  s_27e720dfab3b7a::t_6688ab5020c31c 1-4
+06_api_and_edge/bin/rails
+  s_27e720dfab3b7a::t_b359203b77817c 1-4
+06_api_and_edge/bin/rake
+  s_27e720dfab3b7a::t_3cceaddcd66415 1-4
+06_api_and_edge/bin/setup
+  s_27e720dfab3b7a::t_143791f7313f27 1-35
+06_api_and_edge/config.ru
+  s_27e720dfab3b7a::t_cd332a855dd7d4 1-6
+06_api_and_edge/config/application.rb
+  s_27e720dfab3b7a::t_1c4d997052f8ed 1-39
+06_api_and_edge/config/boot.rb
+  s_27e720dfab3b7a::t_a1d34627bc5787 1-4
+06_api_and_edge/config/bundler-audit.yml
+  s_27e720dfab3b7a::t_504f2df1058806 1-5
+06_api_and_edge/config/ci.rb
+  s_27e720dfab3b7a::t_caf484ba965afe 1-21
+06_api_and_edge/config/credentials.yml.enc
+  s_27e720dfab3b7a::t_f23a24101159b4 1
+06_api_and_edge/config/database.yml
+  s_27e720dfab3b7a::t_6dfc77694c8252 1-31
+06_api_and_edge/config/environment.rb
+  s_27e720dfab3b7a::t_1a1c94822b6ee7 1-5
+06_api_and_edge/config/environments/development.rb
+  s_27e720dfab3b7a::t_26c7fd7a230e34 1-69
+06_api_and_edge/config/environments/production.rb
+  s_27e720dfab3b7a::t_4bb3c2f8c90bb4 1-86
+06_api_and_edge/config/environments/test.rb
+  s_27e720dfab3b7a::t_e6f6e024dbef4b 1-50
+06_api_and_edge/config/importmap.rb
+  s_27e720dfab3b7a::t_67142d0689024c 1-7
+06_api_and_edge/config/initializers/assets.rb
+  s_27e720dfab3b7a::t_dce5ceb03c0953 1-7
+06_api_and_edge/config/initializers/content_security_policy.rb
+  s_27e720dfab3b7a::t_8141ed4446de5b 1-29
+06_api_and_edge/config/initializers/current_scope.rb
+  s_27e720dfab3b7a::t_274a0ecda85996 1-77
+06_api_and_edge/config/initializers/filter_parameter_logging.rb
+  s_27e720dfab3b7a::t_bb9ec8c873ff73 1-8
+06_api_and_edge/config/initializers/inflections.rb
+  s_27e720dfab3b7a::t_25fc90958ef349 1-16
+06_api_and_edge/config/locales/en.yml
+  s_27e720dfab3b7a::t_eadb1da1b438db 1-31
+06_api_and_edge/config/puma.rb
+  s_27e720dfab3b7a::t_32d87c020ccb9a 1-39
+06_api_and_edge/db/migrate/20260714212409_create_current_scope_tables.current_scope.rb
+  s_27e720dfab3b7a::t_03acf8866b6b94 1-32
+06_api_and_edge/db/migrate/20260714212410_create_current_scope_events.current_scope.rb
+  s_27e720dfab3b7a::t_50a396938e4233 1-33
+06_api_and_edge/db/migrate/20260714212411_add_description_to_current_scope_roles.current_scope.rb
+  s_27e720dfab3b7a::t_0e4657f45a3e13 1-6
+06_api_and_edge/db/migrate/20260714212419_create_users.rb
+  s_27e720dfab3b7a::t_332b523133f745 1-11
+06_api_and_edge/db/migrate/20260714212420_create_items.rb
+  s_27e720dfab3b7a::t_6efa7362f68f63 1-11
+06_api_and_edge/db/schema.rb
+  s_27e720dfab3b7a::t_2c2308797919e4 1-88
+06_api_and_edge/db/seeds.rb
+  s_27e720dfab3b7a::t_8a8be85af47aca 1-16
+06_api_and_edge/public/400.html
+  s_27e720dfab3b7a::t_98fba7ee94dcba 1-135
+06_api_and_edge/public/404.html
+  s_27e720dfab3b7a::t_2c99edc3d0a34d 1-135
+06_api_and_edge/public/406-unsupported-browser.html
+  s_27e720dfab3b7a::t_c5205e2b7b6ea8 1-135
+06_api_and_edge/public/422.html
+  s_27e720dfab3b7a::t_910d9b58d4b165 1-135
+06_api_and_edge/public/500.html
+  s_27e720dfab3b7a::t_43bdc830bad867 1-135
+06_api_and_edge/public/icon.svg
+  s_27e720dfab3b7a::t_588ed2f1536b01 1-3
+06_api_and_edge/public/robots.txt
+  s_27e720dfab3b7a::t_1fe8d5c9a6fc30 1
+06_api_and_edge/test/integration/api_guard_test.rb
+  s_78450d8eb59756::t_717dd583ebe31c 1-141
+06_api_and_edge/test/integration/management_ui_test.rb
+  s_78450d8eb59756::t_99b4adb2b06bc4 1-52
+06_api_and_edge/test/integration/tripwire_test.rb
+  s_27e720dfab3b7a::t_de13ab1bf75494 1-28
+README.md
+  s_78450d8eb59756::t_a777c758e9db46 1-63
+01_baseline_blog/app/controllers/about_controller.rb
+  s_27e720dfab3b7a::t_336043e2392401 1-4
+01_baseline_blog/app/controllers/comments_controller.rb
+  s_27e720dfab3b7a::t_fa029fcce06b15 1-79
+01_baseline_blog/app/controllers/posts_controller.rb
+  s_27e720dfab3b7a::t_416e7157656128 1-63
+01_baseline_blog/app/models/post.rb
+  s_27e720dfab3b7a::t_761a0b6e1c81ed 1-3
+01_baseline_blog/app/views/about/show.html.erb
+  s_27e720dfab3b7a::t_368030e3040fd3 1-2
+01_baseline_blog/app/views/posts/_post.html.erb
+  s_27e720dfab3b7a::t_8554b2f2521164 1-16
+01_baseline_blog/config/routes.rb
+  s_27e720dfab3b7a::t_3e80139012bdc8 1-12
+01_baseline_blog/test/controllers/posts_controller_test.rb
+  s_27e720dfab3b7a::t_292ad6bd7b0e07 1-53
+01_baseline_blog/test/integration/current_scope_probes_test.rb
+  s_27e720dfab3b7a::t_ea4409d86e11ba 1-309
+02_custom_actions/app/views/layouts/application.html.erb
+  s_27e720dfab3b7a::t_8bf2161bfc432e 1-43
+02_custom_actions/app/views/reports/show.html.erb
+  s_27e720dfab3b7a::t_9f6d25a9c69a62 1-7
+02_custom_actions/config/initializers/current_scope.rb
+  s_27e720dfab3b7a::t_1f81ad65526bbb 1-77
+02_custom_actions/test/fixtures/reports.yml
+  s_27e720dfab3b7a::t_7b43d99f9a0587 1-14
+02_custom_actions/test/fixtures/users.yml
+  s_27e720dfab3b7a::t_907be63e9f08fd 1-15
+02_custom_actions/test/integration/allowed_to_test.rb
+  s_27e720dfab3b7a::t_7ffeffb09f1837 1-70
+02_custom_actions/test/integration/grid_ui_test.rb
+  s_27e720dfab3b7a::t_fed088ce99ba42 1-102
+02_custom_actions/test/integration/sod_test.rb
+  s_27e720dfab3b7a::t_08b1cf7777fcae 1-47
+02_custom_actions/test/integration/wizard_test.rb
+  s_27e720dfab3b7a::t_27f6629debc6da 1-44
+02_custom_actions/test/test_helper.rb
+  s_27e720dfab3b7a::t_20c632a6b11534 1-33
+03_god_controller/FINDINGS.md
+  s_27e720dfab3b7a::t_1027aa8be1ae30 1-342
+03_god_controller/app/controllers/legacy_controller.rb
+  s_27e720dfab3b7a::t_1215bd2b58487d 1-157
+03_god_controller/app/controllers/legacy_sub_controller.rb
+  s_27e720dfab3b7a::t_4d9c010b44e2d3 1-9
+03_god_controller/config/routes.rb
+  s_27e720dfab3b7a::t_4ed64f5f1a6c65 1-43
+03_god_controller/test/integration/legacy_pre_gem_test.rb
+  s_27e720dfab3b7a::t_06d6739f984d4f 1-22
+03_god_controller/test/integration/legacy_retrofit_test.rb
+  s_27e720dfab3b7a::t_e62066e5248d22 1-67
+03_god_controller/test/integration/partial_grant_test.rb
+  s_27e720dfab3b7a::t_6b0b68710738ce 1-52
+03_god_controller/test/integration/partial_skip_test.rb
+  s_27e720dfab3b7a::t_478c8ce79de5b6 1-37
+03_god_controller/test/integration/scoped_records_test.rb
+  s_27e720dfab3b7a::t_e7a3f4338dbb79 1-111
+03_god_controller/test/test_helper.rb
+  s_27e720dfab3b7a::t_98d829d9f4f403 1-27
+04_sod_matrix/FINDINGS.md
+  s_27e720dfab3b7a::t_539ce582ba3998 1-208
+04_sod_matrix/app/controllers/application_controller.rb
+  s_27e720dfab3b7a::t_c7675f251223f1 1-21
+04_sod_matrix/app/controllers/expenses_controller.rb
+  s_27e720dfab3b7a::t_0df8fec9db7bf4 1-50
+04_sod_matrix/app/controllers/invoices_controller.rb
+  s_27e720dfab3b7a::t_41215cfca5e692 1-20
+04_sod_matrix/app/views/expenses/index.html.erb
+  s_27e720dfab3b7a::t_be71f99791a751 1-13
+04_sod_matrix/app/views/layouts/application.html.erb
+  s_27e720dfab3b7a::t_e78c4ebfc286a1 1-30
+04_sod_matrix/app/views/sessions/index.html.erb
+  s_27e720dfab3b7a::t_756abd4e02faed 1-15
+04_sod_matrix/config/initializers/current_scope.rb
+  s_27e720dfab3b7a::t_ded62e0424b97e 1-16
+04_sod_matrix/db/seeds.rb
+  s_27e720dfab3b7a::t_735e3e39ba2c3b 1-14
+04_sod_matrix/test/integration/break_glass_test.rb
+  s_27e720dfab3b7a::t_ea311104083074 1-155
+04_sod_matrix/test/integration/impersonation_and_audit_test.rb
+  s_27e720dfab3b7a::t_7e5cce97be4bcb 1-97
+04_sod_matrix/test/integration/sod_matrix_test.rb
+  s_27e720dfab3b7a::t_05da27adfcba7d 1-109
+04_sod_matrix/test/test_helper.rb
+  s_27e720dfab3b7a::t_8cb507237d4d89 1-45
+05_legacy_ui_overrides/FINDINGS.md
+  s_27e720dfab3b7a::t_640b5aafa660e9 1-379
+05_legacy_ui_overrides/app/controllers/admin/base_controller.rb
+  s_27e720dfab3b7a::t_c40e2b25168236 1-15
+05_legacy_ui_overrides/app/controllers/reports_controller.rb
+  s_27e720dfab3b7a::t_2fb2b487f40e19 1-42
+05_legacy_ui_overrides/app/models/project.rb
+  s_27e720dfab3b7a::t_72353d2401dbc9 1-3
+05_legacy_ui_overrides/app/models/report.rb
+  s_27e720dfab3b7a::t_58003d7b3a04bd 1-5
+05_legacy_ui_overrides/app/views/admin/reports/edit.html.erb
+  s_27e720dfab3b7a::t_528d8c084e1ac2 1-6
+05_legacy_ui_overrides/app/views/admin/reports/new.html.erb
+  s_27e720dfab3b7a::t_68fdbbb4e6f753 1-6
+05_legacy_ui_overrides/app/views/dashboard/show.html.erb
+  s_27e720dfab3b7a::t_eb68a03e026441 1-23
+05_legacy_ui_overrides/app/views/errors/forbidden.html.erb
+  s_27e720dfab3b7a::t_0c4f1c0caaa711 1-11
+05_legacy_ui_overrides/app/views/layouts/current_scope/application.html.erb
+  s_27e720dfab3b7a::t_a6c98c45b4c84e 1-35
+05_legacy_ui_overrides/app/views/reports/edit.html.erb
+  s_27e720dfab3b7a::t_9812c10a604253 1-2
+05_legacy_ui_overrides/app/views/reports/new.html.erb
+  s_27e720dfab3b7a::t_b8fd7f2b647491 1-2
+05_legacy_ui_overrides/app/views/sessions/index.html.erb
+  s_27e720dfab3b7a::t_b8372e7e458f8b 1-9
+05_legacy_ui_overrides/config/initializers/current_scope.rb
+  s_27e720dfab3b7a::t_e8e8faebf91616 1-19
+05_legacy_ui_overrides/db/seeds.rb
+  s_27e720dfab3b7a::t_0f7542c798b552 1-25
+05_legacy_ui_overrides/test/integration/footgun_key_derivation_test.rb
+  s_27e720dfab3b7a::t_5825b0b58674e1 1-72
+05_legacy_ui_overrides/test/integration/namespaced_permissions_test.rb
+  s_27e720dfab3b7a::t_d1084fe3c047e4 1-105
+05_legacy_ui_overrides/test/probes/excluded_and_defaults_probe.rb
+  s_27e720dfab3b7a::t_2f182fbbb49047 1-60
+05_legacy_ui_overrides/test/test_helper.rb
+  s_27e720dfab3b7a::t_a6abce964b6653 1-32
+06_api_and_edge/app/controllers/api/base_controller.rb
+  s_27e720dfab3b7a::t_2ef572f13d3aa3 1-28
+06_api_and_edge/app/controllers/api/raw_controller.rb
+  s_27e720dfab3b7a::t_b2984ca93fbaa1 1-19
+06_api_and_edge/app/controllers/api/v1/items_controller.rb
+  s_27e720dfab3b7a::t_b29dc1f71c1e9a 1-42
+06_api_and_edge/app/controllers/application_controller.rb
+  s_27e720dfab3b7a::t_8a39d3990802ed 1-14
+06_api_and_edge/app/views/layouts/application.html.erb
+  s_27e720dfab3b7a::t_b963a61e7db36b 1-30
+06_api_and_edge/config/routes.rb
+  s_27e720dfab3b7a::t_fc4f1846d0176d 1-44
+06_api_and_edge/test/integration/isolation_test.rb
+  s_27e720dfab3b7a::t_cb1afd9c4b0d40 1-39
+06_api_and_edge/test/integration/routing_edges_test.rb
+  s_27e720dfab3b7a::t_ea9bb6c48aa15f 1-90
+06_api_and_edge/test/test_helper.rb
+  s_27e720dfab3b7a::t_5749373eabb31a 1-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "bc5b9ee352bdef185331789bf5031e71d02f71f4",
+  "prompts": {},
+  "sessions": {
+    "s_27e720dfab3b7a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "daa212d5-49e0-4fc9-aace-18a14a7b3cfa",
+        "model": "claude-fable-5"
+      },
+      "human_author": "davidteren <drteren@gmail.com>"
+    },
+    "s_78450d8eb59756": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f912de4a-ca6e-45c8-905f-dcd49b32058b",
+        "model": "claude-fable-5"
+      },
+      "human_author": "davidteren <drteren@gmail.com>"
+    }
+  }
+}
