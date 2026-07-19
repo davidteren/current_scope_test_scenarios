@@ -1,0 +1,28 @@
+.gitignore
+  s_1aae90e86592a0::t_e38d89694faeb1 12-14
+.intense/ways-of-working.yaml
+  s_1aae90e86592a0::t_1b043f3bccd432 1-55
+.compound-engineering/config.local.example.yaml
+  s_1aae90e86592a0::t_09fab1a59318bb 1-91
+.intense/patterns.yaml
+  s_1aae90e86592a0::t_1b043f3bccd432 2-41
+  s_1aae90e86592a0::t_69274c2cbc5b59 1
+.intense/thresholds.yaml
+  s_1aae90e86592a0::t_1b043f3bccd432 1-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "aeb424ba05b26b8200ef9c84bd615b947d63691d",
+  "prompts": {},
+  "sessions": {
+    "s_1aae90e86592a0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7999a8a3-57fe-4bab-ba6c-db123206c1d7",
+        "model": "claude-fable-5"
+      },
+      "human_author": "davidteren <drteren@gmail.com>"
+    }
+  }
+}
