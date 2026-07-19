@@ -38,14 +38,16 @@ class LegacyRetrofitTest < ActionDispatch::IntegrationTest
     assert_select "#access-denied"
   end
 
-  test "turbo_stream negotiated denials also render the host 403 page" do
+  test "turbo_stream negotiated denials also render the host 403 page as text/html" do
     login_as @roleless
     get "/legacy/settings",
         headers: { "Accept" => "text/vnd.turbo-stream.html, text/html" }
     assert_response :forbidden
     assert_equal "no_grant", response.headers["X-Current-Scope-Reason"]
+    assert_includes response.media_type, "text/html"
     assert_includes response.body, "Access denied"
   end
+
 
 
   test "full-access owner passes everywhere" do

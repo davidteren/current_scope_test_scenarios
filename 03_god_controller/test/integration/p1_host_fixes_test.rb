@@ -131,7 +131,7 @@ class P1HostFixesTest < ActionDispatch::IntegrationTest
     refute order.reload.archived
   end
 
-  test "turbo_stream denials render the friendly page, not a blank body" do
+  test "turbo_stream denials render the friendly page as text/html, not a blank body" do
     roleless = User.create!(name: "Turbo Roleless", email: "turbo-roleless@example.com")
     login_as roleless
     post "/legacy/update_settings",
@@ -139,9 +139,11 @@ class P1HostFixesTest < ActionDispatch::IntegrationTest
          headers: { "Accept" => "text/vnd.turbo-stream.html, text/html, application/xhtml+xml" }
     assert_response :forbidden
     assert_equal "no_grant", response.headers["X-Current-Scope-Reason"]
+    assert_includes response.media_type, "text/html"
     assert_includes response.body, "Access denied"
     assert_includes response.body, "no_grant"
   end
+
 
   test "bulk_delete and merge_records treat NULL active as inactive" do
     null_active = Customer.create!(name: "NullActive", active: nil)
@@ -154,9 +156,32 @@ class P1HostFixesTest < ActionDispatch::IntegrationTest
 
   test "Setting.[]= upserts without raising on a second write to the same key" do
     assert_equal "one", (Setting["site_name"] = "one")
-    assert_equal "two", (Setting["site_name"] = "two")
+    first = Setting.find_by!(key: "site_name")
+    created_at = first.created_at
+
+    travel 2.seconds do
+      assert_equal "two", (Setting["site_name"] = "two")
+    end
+
+    first.reload
     assert_equal 1, Setting.where(key: "site_name").count
     assert_equal "two", Setting["site_name"]
+    assert_equal created_at.to_i, first.created_at.to_i, "created_at must survive upsert updates"
+    assert first.updated_at > created_at, "updated_at should advance on rewrite"
+  end
+
+  test "flash notice markup includes styled flash classes" do
+    post "/legacy/import"
+    follow_redirect!
+    assert_select "p.flash.flash-notice[role=status]"
+  end
+
+  test "ReportDelivery rejects unknown kind values" do
+    error = assert_raises(ActiveRecord::RecordInvalid) do
+      ReportDelivery.create!(kind: "typo_kind", user: @owner)
+    end
+    assert_match(/Kind/, error.message)
   end
 end
+
 

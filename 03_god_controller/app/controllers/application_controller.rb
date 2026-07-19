@@ -36,13 +36,16 @@ class ApplicationController < ActionController::Base
 
   def render_access_denied_page(reason)
     # formats: [:html] so turbo_stream requests still resolve the .html.erb
-    # template instead of looking for access_denied.turbo_stream.erb.
+    # template. content_type: text/html so Turbo treats the 403 as a full-page
+    # HTML response instead of a stream with no actions (blank UI).
     render template: "shared/access_denied",
            status: :forbidden,
            layout: "application",
            formats: [ :html ],
+           content_type: "text/html",
            locals: { reason: reason }
   end
 end
+
 
 
