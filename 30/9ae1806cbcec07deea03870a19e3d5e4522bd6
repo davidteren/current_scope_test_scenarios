@@ -1,0 +1,19 @@
+03_god_controller/app/controllers/legacy_controller.rb
+  s_a6c704b0a8cf11::t_1738157e48ab81 2-3,5-12,42,44,52,59-60,71-73,77-79,106-107,110-112,115,128,133-134,138-141,145-146,157-162,168-169
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "309ae1806cbcec07deea03870a19e3d5e4522bd6",
+  "prompts": {},
+  "sessions": {
+    "s_a6c704b0a8cf11": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "796a6e36-5f07-49c2-a23a-5dc32d5c7bc9",
+        "model": "claude-fable-5"
+      },
+      "human_author": "davidteren <drteren@gmail.com>"
+    }
+  }
+}
