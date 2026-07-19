@@ -1,5 +1,8 @@
 # current_scope test scenarios
 
+> **Worklist & fleet plan: [STATUS.md](STATUS.md)** — start there if you're an
+> agent asked to build or evaluate scenarios.
+
 Six throwaway Rails 8.1.3 host apps that stress-test the
 [current_scope](https://github.com/davidteren/current_scope) gem (v0.3.0, resolved by
 path from `~/Projects/DT/current_scope`; updated 2026-07-19 for the 0.3.0
