@@ -1,0 +1,15 @@
+<main class="container">
+  <h1>SoD Matrix — fake auth</h1>
+  <% if current_user %>
+    <p>Signed in as <strong><%= current_user.name %></strong>
+      <% if impersonating? %>(impersonating <%= current_scope_user.name %>)<% end %>
+      <%= button_to "Log out", logout_path, method: :delete %>
+    </p>
+    <p><%= link_to "Expenses", expenses_path %> | <%= link_to "Manage roles", "/current_scope" %></p>
+  <% end %>
+  <ul>
+    <% @users.each do |user| %>
+      <li><%= user.name %> (<%= user.email %>) <%= button_to "Log in as", login_path(user), method: :post %></li>
+    <% end %>
+  </ul>
+</main>

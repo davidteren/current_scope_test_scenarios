@@ -1,0 +1,12 @@
+<h1>Login as</h1>
+<% if current_user %>
+  <p>Signed in as <%= current_user.name %> <%= button_to "Logout", logout_path, method: :delete %></p>
+<% end %>
+<ul>
+  <% @users.each do |user| %>
+    <li>
+      <%= user.name %> (<%= user.email %>)
+      <%= button_to "Login as #{user.name}", sessions_path, params: { user_id: user.id } %>
+    </li>
+  <% end %>
+</ul>

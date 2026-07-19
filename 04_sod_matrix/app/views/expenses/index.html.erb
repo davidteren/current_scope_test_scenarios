@@ -1,0 +1,13 @@
+<main class="container">
+  <h1>Expenses</h1>
+  <table>
+    <% @expenses.each do |expense| %>
+      <tr>
+        <td><%= expense.description %></td>
+        <td><%= expense.amount_cents %></td>
+        <td><%= expense.requested_by.name %></td>
+        <td><%= button_to "Approve", approve_expense_path(expense), method: :post %></td>
+      </tr>
+    <% end %>
+  </table>
+</main>

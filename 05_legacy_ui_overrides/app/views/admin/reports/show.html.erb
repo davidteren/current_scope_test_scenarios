@@ -1,0 +1,4 @@
+<h1>Admin · <%= @report.title %></h1>
+<p>State: <%= @report.state %></p>
+<%= link_to "Edit", edit_admin_report_path(@report) if allowed_to?(:edit, @report) %>
+<%= link_to "Back", admin_reports_path %>

@@ -1,0 +1,16 @@
+<div id="<%= dom_id post %>">
+  <div>
+    <strong>Title:</strong>
+    <%= post.title %>
+  </div>
+
+  <div>
+    <strong>Body:</strong>
+    <%= post.body %>
+  </div>
+
+  <%# allowed_to? inside a partial (probe 6) %>
+  <% if allowed_to?(:edit, post) %>
+    <%= link_to "Edit (partial)", edit_post_path(post) %>
+  <% end %>
+</div>

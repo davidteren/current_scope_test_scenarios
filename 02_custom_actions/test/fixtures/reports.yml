@@ -1,0 +1,14 @@
+q1:
+  title: Q1 Budget
+  state: draft
+  requested_by: alice
+
+q2:
+  title: Q2 Budget
+  state: draft
+  requested_by: bob
+
+audit:
+  title: Audit 2026
+  state: draft
+  requested_by: carol

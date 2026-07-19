@@ -1,0 +1,7 @@
+<h1><%= @report.title %></h1>
+<p>State: <%= @report.state %> | Requested by: <%= @report.requested_by.name %></p>
+<%= button_to "Approve", approve_report_path(@report), method: :post if allowed_to?(:approve, @report) %>
+<%= button_to "Publish", publish_report_path(@report), method: :post if allowed_to?(:publish, @report) %>
+<%= button_to "Clone", clone_report_path(@report), method: :post if allowed_to?(:clone, @report) %>
+<%= link_to "Edit", edit_report_path(@report) if allowed_to?(:edit, @report) %>
+<%= link_to "Back", reports_path %>

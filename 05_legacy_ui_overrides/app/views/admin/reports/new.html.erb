@@ -1,0 +1,6 @@
+<h1>Admin · New report</h1>
+<%= form_with model: @report, url: admin_reports_path do |f| %>
+  <%= f.text_field :title, class: "form-control mb-2" %>
+  <%= f.text_field :state, class: "form-control mb-2" %>
+  <%= f.submit class: "btn btn-primary" %>
+<% end %>

@@ -1,0 +1,23 @@
+<h1>Dashboard</h1>
+
+<%# Probe 2 (the documented foot-gun): controller_path "dashboard" != route key
+    "reports", so the short form derives reports#show — NOT the dashboard#show
+    the Guard just enforced. A dashboard-only user sees this widget vanish. %>
+<% if @reports.any? && allowed_to?(:show, @reports.first) %>
+  <div class="alert alert-info" id="widget-shortform">Reports widget (short-form check)</div>
+<% end %>
+
+<%# The prescribed fix: explicit full key. %>
+<% if allowed_to?("dashboard#show") %>
+  <div class="alert alert-success" id="widget-fullkey">Reports widget (full-key check)</div>
+<% end %>
+
+<table class="table">
+  <% @reports.each do |report| %>
+    <tr>
+      <td><%= report.title %></td>
+      <td><%= report.state %></td>
+      <td><%= link_to "View", report_path(report) if allowed_to?(:show, report) %></td>
+    </tr>
+  <% end %>
+</table>

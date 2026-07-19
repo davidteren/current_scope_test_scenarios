@@ -1,0 +1,11 @@
+<div class="card border-danger mx-auto mt-5" style="max-width: 32rem" id="branded-403">
+  <div class="card-header bg-danger text-white">403 · Not allowed</div>
+  <div class="card-body">
+    <h5 class="card-title">You don't have access to this page</h5>
+    <p class="card-text">
+      Permission required: <code id="denied-permission"><%= @permission %></code><br>
+      Reason: <span class="badge text-bg-secondary" id="denied-reason"><%= @reason %></span>
+    </p>
+    <%= link_to "Back to dashboard", root_path, class: "btn btn-primary" %>
+  </div>
+</div>

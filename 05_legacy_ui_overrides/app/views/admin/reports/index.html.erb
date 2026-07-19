@@ -1,0 +1,18 @@
+<h1>Admin · Reports</h1>
+
+<table class="table">
+  <% @reports.each do |report| %>
+    <tr>
+      <td><%= link_to report.title, admin_report_path(report) %></td>
+      <td><%= report.state %></td>
+      <td>
+        <%# Probe 3a: inside admin/reports, the short form should resolve to
+            admin/reports#approve via the path-suffix match. %>
+        <% if allowed_to?(:approve, report) %>
+          <%= button_to "Approve", approve_admin_report_path(report), class: "btn btn-sm btn-success",
+                form: { id: "approve-btn-#{report.id}" } %>
+        <% end %>
+      </td>
+    </tr>
+  <% end %>
+</table>

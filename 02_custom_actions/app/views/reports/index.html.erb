@@ -1,0 +1,14 @@
+<h1>Reports</h1>
+<%= link_to "New report", new_report_path if allowed_to?(:new, Report) %>
+<table>
+  <% @reports.each do |report| %>
+    <tr>
+      <td><%= link_to report.title, report %></td>
+      <td><%= report.state %></td>
+      <td>
+        <%= button_to "Approve", approve_report_path(report), method: :post if allowed_to?(:approve, report) %>
+        <%= button_to "Reject", reject_report_path(report), method: :post if allowed_to?(:reject, report) %>
+      </td>
+    </tr>
+  <% end %>
+</table>

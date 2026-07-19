@@ -1,0 +1,11 @@
+# Per-app junk (the apps were generated with --skip-git, so this root file covers all of them)
+*/config/master.key
+*/log/
+*/tmp/
+*/storage/
+*.sqlite3
+*.sqlite3-*
+*/node_modules/
+*/.bundle/
+*/public/assets/
+.DS_Store

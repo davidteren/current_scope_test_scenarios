@@ -1,0 +1,9 @@
+<main class="container">
+  <h1>Legacy Dashboard</h1>
+  <p>Logged in as <%= current_user.name %>. <%= button_to "Log out", "/logout", method: :delete %></p>
+  <nav><ul>
+    <li><a href="/legacy/stats">Stats</a></li>
+    <li><a href="/legacy/settings">Settings</a></li>
+    <li><a href="/legacy/search?q=x">Search</a></li>
+  </ul></nav>
+</main>

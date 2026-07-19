@@ -1,0 +1,18 @@
+olive:
+  name: Olive Owner
+  email: owner@example.com
+  admin: true
+
+sam:
+  name: Sam Staff
+  email: staff@example.com
+  admin: false
+
+ada:
+  name: Ada Admin
+  email: admin@example.com
+  admin: true
+
+noemail:
+  name: No Email
+  admin: false

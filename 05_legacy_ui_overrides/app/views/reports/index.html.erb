@@ -1,0 +1,32 @@
+<h1>Reports</h1>
+
+<%# Probe 2, "link shows but 403s": the developer guards the Dashboard link
+    with a record short-form ("the dashboard shows reports"). In this
+    controller the key derives to reports#show, so a reports-granted user
+    sees the link — and gets 403'd by the dashboard#show gate on click. %>
+<% if @reports.any? && allowed_to?(:show, @reports.first) %>
+  <%= link_to "Open dashboard", dashboard_path, class: "btn btn-outline-primary", id: "dashboard-link-footgun" %>
+<% end %>
+
+<%# The prescribed fix: guard the link with the gate's exact key. %>
+<% if allowed_to?("dashboard#show") %>
+  <%= link_to "Open dashboard (correct guard)", dashboard_path, class: "btn btn-outline-success", id: "dashboard-link-fixed" %>
+<% end %>
+
+<table class="table">
+  <% @reports.each do |report| %>
+    <tr>
+      <td><%= link_to report.title, report_path(report) %></td>
+      <td><%= report.state %></td>
+      <td>
+        <%# Probe 3b: from a TOP-LEVEL reports view, :approve derives
+            reports#approve — a key with no route (uncataloged). %>
+        <% if allowed_to?(:approve, report) %>
+          <span class="badge text-bg-warning" id="approve-from-reports-<%= report.id %>">approve-visible-from-reports</span>
+        <% end %>
+      </td>
+    </tr>
+  <% end %>
+</table>
+
+<%= link_to "New report", new_report_path, class: "btn btn-primary" if allowed_to?(:create, Report) %>

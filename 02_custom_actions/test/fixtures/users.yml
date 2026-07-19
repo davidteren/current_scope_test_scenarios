@@ -1,0 +1,15 @@
+alice:
+  name: Alice Owner
+  email: alice@example.com
+
+bob:
+  name: Bob Member
+  email: bob@example.com
+
+carol:
+  name: Carol NoRole
+  email: carol@example.com
+
+dave:
+  name: Dave Approver
+  email: dave@example.com
