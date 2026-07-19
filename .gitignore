@@ -9,3 +9,6 @@
 */.bundle/
 */public/assets/
 .DS_Store
+
+# Compound Engineering machine-local config
+.compound-engineering/*.local.yaml
